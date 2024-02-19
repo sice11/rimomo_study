@@ -189,6 +189,23 @@ ul,li{
         width: 26px;
     }
 
+    .menu-list-item:first-of-type{
+        margin-right: 20px;
+    }
+
+    /* #mv */
+    .copy{
+        top: 30%;
+        left: 4%;
+        padding: 20px;
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .mv-img{
+        width: 90%;
+    }
+
     .btn{
         width: unset;
     }
