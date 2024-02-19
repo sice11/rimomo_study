@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: "Hiragino Sans", "ヒラギノ角ゴ Pro", sans-serif;
+}
+
+a{
+    color: unset;
+    text-decoration: unset;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+/* layout */
+#container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2BC6D0;
+    text-align: center;
+}
+
+/* common-sec */
+.common-sec{
+    padding: 80px 0 100px;
+}
+
+.section-ttl{
+    width: 70%;
+    margin: 0 auto 40px;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.section-cont{
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 40px;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#title{
+    width: 124px;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list-item:first-of-type{
+    margin-right: 40px;
+}
+
+/* footer */
+#footer{
+    padding: 13px 0;
+    background-color: #fff;
+}
+
+#copyright{
+    font-size: 12px;
+    color: #2BC6D0;
+}
+
+/* content */
+
+/* mv */
+
+#mv{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.mv-img{
+    width: 86%;
+    margin-left: auto;
+}
+
+.copy{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 30px;
+    background-color: #fff;
+    text-align: left;
+    color: #2BC6D0;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+/* about */
+
+#about{
+    background-color: #ddf6f8;
+}
+
+#about .section-ttl{
+    color: #2BC6D0;
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-list-item{
+    width: 22%;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.about-img{
+    width: 65%;
+}
+
+.about-txt{
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    color: #2BC6D0;
+}
+
+/* cta */
+#cta{
+    height: 18vw;
+    padding: 100px 0;
+    background: url(../images/lower_bg.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+.btn-outer{
+    position: relative;
+    top: 40%;
+}
+
+.btn{
+    display: block;
+    width: 550px;
+    margin: auto;
+    padding: 22px 0px 21px;
+    border-radius: 40px;
+    background-color: #f98b49;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px){
+    html{
+        font-size: 14px;
+    }
+
+    /* header */
+    #header{
+        padding: 15px 20px;
+    }
+
+}
