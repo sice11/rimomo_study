@@ -175,6 +175,7 @@ ul,li{
 
 /* Media Query */
 @media screen and (max-width: 767px){
+
     html{
         font-size: 14px;
     }
@@ -184,4 +185,11 @@ ul,li{
         padding: 15px 20px;
     }
 
+    #title{
+        width: 26px;
+    }
+
+    .btn{
+        width: unset;
+    }
 }
