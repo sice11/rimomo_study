@@ -206,6 +206,45 @@ ul,li{
         width: 90%;
     }
 
+    /* common-sec */
+    .common-sec{
+        padding: 60px 0 80px;
+    }
+
+    .section-ttl{
+        width: 90%;
+        margin-bottom: 28px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .section-cont{
+        width: 90%;
+    }
+
+    /* about */
+    .about-list{
+        flex-wrap: wrap;
+        margin-bottom: -15px;
+    }
+
+    .about-list-item{
+        /* 画像間（中央）の境界線がなかったので、それを引く */
+        width: calc(50% - 7.5px);
+        /* 画像間の隙間を作るため（下部分） */
+        margin-bottom: 15px;
+        padding: 25px;
+    }
+
+    .about-img{
+        width: 70%;
+    }
+
+    .about-txt{
+        margin: 15px;
+        line-height: 1.6;
+    }
+
     .btn{
         width: unset;
     }
